@@ -23,7 +23,7 @@ class horizon::params {
       $apache_group                = 'apache'
       $wsgi_user                   = 'apache'
       $wsgi_group                  = 'apache'
-      $memcache_package            = "python${pyvers}-memcached"
+      $memcache_package            = "python-memcached"
     }
     'Debian': {
       $http_service                = 'apache2'
